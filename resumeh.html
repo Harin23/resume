@@ -1,0 +1,137 @@
+<html lang="eng">
+    <head>
+        <title>Harin's Resume</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="resumec.css">
+        <script src="resumej.js"></script>
+    </head>
+    <body>
+        <heading>
+            <div class="jumbotron jumbotron-fluid"> 
+                <h1>Harinder Bal's Resume</h1>
+                <div class="container" id="nav-bar-container">
+                <ul class="nav nav-pills" id="navigation-bar">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#home" id="main-page-id" role="tab" aria-selected="true">Main Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#skills" id="skills-id" role="tab" aria-selected="false">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#education" id="education-id" role="tab" aria-selected="false">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#projects" id="projects-id" role="tab" aria-selected="false">Projects</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+         </heading>         
+
+        <div class="tab-content">
+            <div class="tab-pane show active fade" id="home" aria-labelledby="main-page-id" role="tabpanel">
+                <h1>About me:</h1>
+                <p class="container" id="about-me">
+                    I am an Electrical Engineering graduate from the University of Alberta. I enjoy and excel at all aspects of electrical engineering, which include Embedded Systems, Power Systems, Control Systems 
+                    and so on. I first learned HTML when I was in grade 9. When I started programming again at university, I realized I enjoyed it and since have been doing it on my free time as well. I have developed 
+                    a great skill-set for programming. You can click on the skills tab to view my skills and use the search bar to find any specific skills you might be searching for. I have also completed many projects
+                    during my time at UofA and on my free time. You can view my projects by clicking on the projects tab. 
+
+                </p>
+            </div>
+    
+            <div class="tab-pane fade" id="skills" aria-labelledby="skills-id" role="tabpanel">
+
+                <h1>Skills:</h1>
+
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for a skill" onkeyup="skillSearch" id="input-skill-search">
+                        </div>
+                  </div>
+                  <div class="col-lg-4"></div>
+                </div>  
+
+                <table class="table table-bordered" id="skills-table">
+                    <tr>
+                        <td>Microsoft Office Suite</td>
+                        <td>Python</td>
+                        <td>C</td>
+                        <td>C++</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>AVR microcontrollers</td>
+                        <td>STM32 microcontrollers</td>
+                        <td>Arduino</td>
+                    </tr>
+                    <tr>
+                        <td>Matlab</td>
+                        <td>Simulink</td>
+                        <td>Variable Speed Drives</td>
+                        <td>Variable Frequency Drives</td>
+                    </tr>
+                    <tr>
+                        <td>signal processing</td>
+                        <td>KiCAD</td>
+                        <td>AutoCAD</td>
+                        <td>SQL</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>CSS</td>
+                        <td>Javascript</td>
+                        <td>Wireshark</td>
+                    </tr>
+                    <tr>
+                        <td>SCADA</td>
+                        <td>ETAP</td>
+                        <td>Azure</td>
+                        <td>Bootstrap</td>
+                    </tr>
+                    <tr>
+                        <td>Swift</td>
+                        <td>Instrumentation</td>
+                        <td>ColdFire Assembly Language</td>
+                        <td>PCB design and assembly</td>
+                    </tr>
+                    <tr>
+                        <td>Power System Analysis and Design</td>
+                        <td>Xcode</td>
+                        <td>Visual Studio</td>
+                        <td>Git Hub</td>
+                    </tr>
+                    <tr>
+                        <td>Power Electronics</td>
+                        <td>Safety Management</td> 
+                        <td>Fault Analysis</td>
+                        <td>PHP</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Apple Application Development</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Excellent Communication Skills</td>
+                        <td>Excellent Teamwork Skills</td>
+                        <td>Excellent Problem-Solving Skills</td>
+                        <td>Strong-work Ethic</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tab-pane fade" id="education" aria-labelledby="education-id" role="tabpanel">3</div>
+
+            <div class="tab-pane fade" id="projects" aria-labelledby="projects-id" role="tabpanel">4</div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+</html>
