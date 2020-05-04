@@ -1,0 +1,26 @@
+
+
+user_i = detect_space_and_uppercase_fl(user_i);
+
+function detect_space_and_uppercase_fl(a){
+    var user_i, user_ic, l;
+    user_i=a;
+    l=user_i.length;
+    if (user_i[l-1] == " "){
+        user_ic = user_i[l].toUpperCase();
+        user_i[l]=user_ic;
+    }
+    return user_i;
+}
+
+    if (user_i[0] != user_i[0].toupperCase()){
+        user_ic = user_i[0].toUpperCase();
+        user_i[0]=user_ic;
+    }
+
+function detect_and_uppercase_fl(a){
+    var user_i, user_ic;
+    user_i=a;
+    
+    return user_i;
+}
