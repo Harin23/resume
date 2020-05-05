@@ -1,17 +1,14 @@
-
---------- capitalize the first letter for multiple word searches--------------------------------------------
-
-function detect_space_and_uppercase_fl(a){
-    var user_i, user_ic, l;
-    user_i=a;
-    l=user_i.length;
-    if (user_i[l-1] == " "){
-        user_ic = user_i[l].toUpperCase();
-        user_i[l]=user_ic;
-    }
-    return user_i;
-}
------------------------recnstructing string--------------------------
-var s="abcd";
-var a = s.substr(1,3)
-console.log(a);
+  ------Upper case the first letter of the first word typed into the search bar-----------------------------------------------------------
+  if( (l == 1)  && (user_i[0] != user_i[0].toUpperCase()) ){
+      user_if = user_i.toUpperCase();
+      document.getElementById("skillInput").value = user_if; 
+      user_i = document.getElementById("skillInput").value;
+   }
+-------upper case the first letter of any other word typed into the search bar----------------------------------------
+   if( (user_i[l-2] == " ") && (user_i[(l-1)] != user_i[(l-1)].toUpperCase()) ){
+      var update_input
+      user_if = user_i[l-1].toUpperCase();
+      update_input = user_i.substr(0,l-1) + user_if; // l-1 instead of l-2becuase the substr function subtracts -1 it self, because last value is length not index (begining index, length).
+      document.getElementById("skillInput").value = update_input;
+      user_i = document.getElementById("skillInput").value;
+   }
