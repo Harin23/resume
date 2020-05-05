@@ -32,3 +32,25 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.edu-text{
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+.edu{
+    background-color: lightblue;
+    position: relative;
+}
+
+#edu-date{
+    position: absolute;
+    right: 20px;
+}
+#edu-im{
+    display: block;
+    height: 50%;
+    width: 50%;
+   margin-right: auto;
+   margin-left: auto;
+
+}
