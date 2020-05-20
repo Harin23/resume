@@ -6,6 +6,7 @@
 }
 h1{
     text-align: center;
+    background-color: lightblue;
 }
 #navigation-bar{
     display:flex;
@@ -28,29 +29,72 @@ body{
     background: lightblue;
     font-size: 30px;
     font-style: italic;
-    margin-top: 40px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
 }
-.edu-text{
-    font-style: italic;
-    font-size: large;
-    font-weight: bold;
-}
-.edu{
-    background-color: lightblue;
-    position: relative;
+
+.info-list{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-#edu-date{
+.new-entry{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.subtext-con1{
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin: -8px 0px 0px 0px;
+}
+.subtext-con2{
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin: -8px 0px 0px 0px;
+}
+.subtext-con3{
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 0px 0px 0px;
+    margin: -8px 0px 0px 0px;
+}
+.subtext{
+    font-size: 20px; 
+    font-style: italic;
+    padding-top: 0px 0px 0px 0px;
+}
+.new-item{
+    background-color: lightblue;
+    position: relative;
+    margin-top: 5px;
+}
+
+#align-date{
     position: absolute;
     right: 20px;
 }
+
+
 #edu-im{
     display: block;
     height: 50%;
     width: 50%;
-   margin-right: auto;
-   margin-left: auto;
-
+    margin-right: auto;
+    margin-left: auto;
 }
+
+#pcb{
+    position: absolute;
+    right: 500px;
+    top: 5px;
+    height: 200px;
+    width: auto;
+}
+

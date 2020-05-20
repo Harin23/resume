@@ -48,7 +48,7 @@
                     <div class="col-lg-4"></div>
                     <div class="col-lg-4">
                         <div class="input-group">
-                            <input type="text" class="form-control" id="skillInput" onkeyup="search_skill()" placeholder="Search...">
+                            <input type="text" class="form-control" id="skillInput" onkeyup="search_skill()" placeholder="Search..." data-toggle="tooltip" data-placement="top" title="Search for a specific skill you are interested in.">
                         </div>
                   </div>
                   <div class="col-lg-4"></div>
@@ -127,19 +127,66 @@
             <div class="tab-pane fade" id="education" aria-labelledby="education-id" role="tabpanel">
                 <h1>Education:</h1>
 
-                <div class="container-fluid edu">
-                    <p class="edu-text">
+                <div class="container-fluid new-item">
+                    <p class="new-entry">
                         University of Alberta 
-                        <span id="edu-date"> Class of 2020 </span>
-                        <br> B.sc in Electrical Engineering
+                        <span id="align-date">Class of 2020</span>
+                        <br> <span class="subtext">B.Sc in Electrical Engineering</span>
                     </p>
                 </div>    
 
-                <img src="books.jpg" alt="Focus on multiple books stacked." id="edu-im">
+                <img src="books.jpg" alt="Close up of multiple stacked books of different colors." data-toggle="tooltip" data-placement="top" title="Close up of multiple stacked books of different colors." id="edu-im">
 
             </div>
-            <div class="tab-pane fade" id="projects" aria-labelledby="projects-id" role="tabpanel">4</div>
+            <div class="tab-pane fade" id="projects" aria-labelledby="projects-id" role="tabpanel">
+                <h1>Projects:</h1>
+                <!-- first entry in projects --> 
+                <div class="container-fluid new-item">
+                    <p class="new-entry">
+                        Automated Temperature Regulating Unit
+                        <span id="align-date">Sept 2018 - April 2019</span>
+                    </p>
+                    <div class="container subtext-con1">
+                        <span class="subtext">Capstone Project at the University of Alberta</span>
+                    </div>
+                    <img src="PCB_Front.jpg" alt="Unpopulated PCB from the project." data-toggle="tooltip" data-placement="top" title="Unpopulated PCB from the project." id="pcb">
 
+                    <ul class="info-list">
+                        <li>Designed, tested and repaired three very complex PCBs using LTspice and KiCAD</li>
+                        <li>Programmed a control loop into an AVR microcontroller (ATMega328p)</li>
+                        <li>Using Wi-Fi module ESP8266 we enabled a Wi-Fi to microcontroller connection</li>
+                        <li>Incorporated a USB connection to the microcontroller</li>
+                        <li>Employed the use of many electronic devices such as H-bridges, DC-DC voltage converters and more</li>
+                        <li>Collected and plotted real-time data of the device tests using a python script.</li>
+                    </ul>
+                </div>
+                <!--Second entry in projects-->
+                <div class="container-fluid new-item">
+                    <p class="new-entry">
+                        Tic-Tac-Toe Game
+                        <span id="align-date">June 2019 - July 2019</span>
+                    </p>
+                    <div class="container subtext-con2">
+                        <span class="subtext">iOS Application </span>
+                    </div>
+
+                    <a class="btn btn-success" href="https://github.com/Harin23/Tic-Tac-Toe-" target="_blank" data-toggle="tooltip" data-placement="top" title="View the project code on GitHub">View Code</a>
+                </div>
+                <!--Third entry in projects-->
+                <div class="container-fluid new-item">
+                    <p class="new-entry">
+                        My Resume Webpage
+                        <span id="align-date">April 2019 - May 2019</span>
+                    </p>
+                    <div class="container subtext-con3">
+                        <span class="subtext">Using Bootstrap Framework </span>
+                    </div>
+                    
+                    <a class="btn btn-success" href="https://github.com/Harin23/resume" target="_blank" data-toggle="tooltip" data-placement="top" title="View the project code on GitHub">View Code</a>
+                </div>
+
+
+            </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
